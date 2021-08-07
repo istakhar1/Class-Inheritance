@@ -1,9 +1,8 @@
-export class Shape{
-    drawShape(){
+function Shape(){
+    this.color="blue";
+    this.drawShape=function(){
 
     }
-    calculateArea(){}
-    color(){
-        this.color="blue";
-    }
+    thid.calculateArea=function(){}
 }
+module.export=Shape;

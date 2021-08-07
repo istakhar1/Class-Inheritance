@@ -1,7 +1,6 @@
-import  Shape  from "./shape";
+var Shape =require('./shape')
 
-export class Circle extends Shape{
-    calculateArea(){
-        
-    }
+function Circle(){
+    this.calculateArea=Shape.calculateArea;
 }
+module.export=Circle;
