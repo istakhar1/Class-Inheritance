@@ -5,4 +5,4 @@ function Shape(){
     }
     thid.calculateArea=function(){}
 }
-module.export=Shape;
+module.export.Shape=Shape;
