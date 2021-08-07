@@ -1,4 +1,4 @@
-export class Shape{
+class Shape{
     drawShape(){
 
     }
@@ -7,3 +7,4 @@ export class Shape{
         this.color="blue";
     }
 }
+module.export=Shape;
