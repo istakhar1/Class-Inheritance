@@ -1,6 +1,11 @@
-var Shape =require('./shape')
+const Shape =require('./shape')
 
-function Circle(){
-    this.calculateArea=Shape.calculateArea;
+class Circle extends Shape{
+    constructor(){
+        super();
+    }
+    calculateArea(r){
+        return (3.14 * r * r );
+    }
 }
-module.export.Circle=Circle;
+module.exports=Circle;

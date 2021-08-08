@@ -1,8 +1,12 @@
-function Shape(){
-    this.color="blue";
-    this.drawShape=function(){
-
+class Shape{
+    constructor(){
+        this.color="blue";
     }
-    thid.calculateArea=function(){}
+    drawShape(){
+        console.log("Draw function");
+    }
+    calculateArea(param){
+        return param*param;
+    }
 }
-module.export.Shape=Shape;
+module.exports=Shape;
